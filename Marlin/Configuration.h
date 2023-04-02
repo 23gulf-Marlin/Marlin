@@ -1480,7 +1480,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 33, -28, 0.00 } // 23 Gulf WR
+#define NOZZLE_TO_PROBE_OFFSET { 33, -28, -3.73 } // 23 Gulf WR
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
