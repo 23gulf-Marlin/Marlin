@@ -1700,7 +1700,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE  // 23 Gulf WR
 #define Y_MAX_POS Y_BED_SIZE  // 23 Gulf WR
-#define Z_MAX_POS 350  // 23 Gulf WR
+#define Z_MAX_POS 400  // 23 Gulf WR 350
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
 //#define J_MIN_POS 0
