@@ -1174,6 +1174,7 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 #define DEFAULT_MAX_FEEDRATE          { 300, 300, 300, 300 }
+#define DEFAULT_MAX_FEEDRATE          { 300, 500, 300, 300 }
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
@@ -1680,7 +1681,6 @@
 // Direction of endstops when homing; 1=MAX, -1=MIN
 // :[-1,1]
 #define X_HOME_DIR -1
-#define Y_HOME_DIR -1
 #define Z_HOME_DIR -1
 #define I_HOME_DIR -1
 //#define J_HOME_DIR -1
@@ -1694,6 +1694,7 @@
 // The size of the printable area
 #define X_BED_SIZE 200
 #define Y_BED_SIZE 2160
+#define Y_BED_SIZE 6260
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
